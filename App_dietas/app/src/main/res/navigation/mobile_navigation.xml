@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.app_dietas.ui.Inicio.InicioFragment"
+        android:label="Inicio"
+        tools:layout="@layout/ventana_principal">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_progreso"
+        android:name="com.example.app_dietas.ui.progreso.ProgresoFragment"
+        android:label="@string/menu_Progreso"
+        tools:layout="@layout/fragment_progreso">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_calendario"
+        android:name="com.example.app_dietas.ui.calendario.CalendarioFragment"
+        android:label="@string/menu_Calendario"
+        tools:layout="@layout/fragment_calendario" />
+
+    <fragment
+        android:id="@+id/nav_dieta_de_hoy"
+        android:name="com.example.app_dietas.ui.dieta_de_hoy.DietaDeHoyFragment"
+        android:label="@string/menu_Dieta_Hoy"
+        tools:layout="@layout/fragment_dieta_hoy" />
+    <fragment
+        android:id="@+id/nav_info_nutricional"
+        android:name="com.example.app_dietas.ui.info_nutricional.InfoNutricionalFragment"
+        android:label="@string/menu_Info_Nutr"
+        tools:layout="@layout/fragment_info_nutricional" />
+    <fragment
+        android:id="@+id/nav_cerrarSesion"
+        android:name="com.example.app_dietas.ui.CerrarSesion.CerrarFragment"
+        android:label="@string/menu_CerrarSesion"
+        tools:layout="@layout/fragment_option" />
+
+
+
+
+
+
+</navigation>

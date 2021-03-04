@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PodometroApp</string>
+    <string name="title_ProgresoDeHoy">Progreso de hoy</string>
+    <string name="title_Registros">Registros</string>
+    <string name="title_Metas">Metas</string>
+
+    //Progresos de hoy
+    <string name="pasos_dados">pasos dados hoy</string>
+    <string name="vel_media">V.media: </string>
+    <string name="dist_recor">Distancia recorrida</string>
+    <string name="Calorias_quemadas">Calorias quemadas</string>
+    <string name="Tiempo_Act">Tiempo activo</string>
+
+    //Metas
+    <string name="Calorias_text">Calorias a quemar: </string>
+    <string name="pasos_text">Pasos: </string>
+    <string name="peso_text">Peso: </string>
+    <string name="edad_text">Edad: </string>
+    <string name="Sexo_text">Sexo: </string>
+    <string name="Altura_text">Altura:</string>
+    <string name="boton_aplicacion_text">Aplicar cambios</string>
+
+
+</resources>

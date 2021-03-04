@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_progreso_de_hoy">
+
+    <fragment
+        android:id="@+id/navigation_progreso_de_hoy"
+        android:name="com.example.podometroapp.ui.ProgresoDeHoy.ProgresoDeHoyFragment"
+        android:label="@string/title_ProgresoDeHoy"
+        tools:layout="@layout/fragment_progreso_de_hoy" />
+
+    <fragment
+        android:id="@+id/navigation_registros"
+        android:name="com.example.podometroapp.ui.Registros.RegistrosFragment"
+        android:label="@string/title_Registros"
+        tools:layout="@layout/fragment_registro" />
+
+    <fragment
+        android:id="@+id/navigation_metas"
+        android:name="com.example.podometroapp.ui.Metas.MetasFragment"
+        android:label="@string/title_Metas"
+        tools:layout="@layout/fragment_metas" />
+</navigation>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="66dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.45"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewCantidadN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="right"
+                        android:text="350" />
+
+                    <TextView
+                        android:id="@+id/textViewCantidadCual"
+                        android:layout_width="27dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="g" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/textViewGrupoAlimenticio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Lácteo" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/textViewNombreAlimento"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="0.65"
+                android:gravity="center_vertical"
+                android:text="Paella" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

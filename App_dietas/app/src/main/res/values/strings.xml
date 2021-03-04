@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">DietApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Menu_Dietas</string>
+    <string name="nav_header_subtitle">Dietas@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    //Menu
+    <string name="menu_Progreso">Progreso</string>
+    <string name="menu_Calendario">Calendario</string>
+    <string name="menu_Dieta_Hoy">Dieta de hoy</string>
+    <string name="menu_Info_Nutr">Info. nutricional de dieta</string>
+    <string name="menu_Info_app">Info. App</string>
+    <string name="menu_CerrarSesion">Cerrar sesion</string>
+
+    //Titulos de cada opción
+    <string name="Info_Nutricional">Información Nutricional de la dieta</string>
+    <string name="Dieta_del_dia">Composición de la dieta de hoy</string>
+    <string name="Progreso">Progreso</string>
+
+    //Inicio
+    <string name="inicio_titulo">Bienvenidos a DietApp</string>
+    <string name="inicio_Correo">Correo electrónico</string>
+    <string name="inicio_Contraseña">Contraseña</string>
+    <string name="inicio_sesion">Iniciar sesión</string>
+
+    //Progreso
+    <string name="N_dia_text">Dias seguidos siguiendo la dieta</string>
+    <string name="Dias_cumplidos_simple">Progreso simple</string>
+    <string name="Dias_cumplidos_detalles">Progreso detallado</string>
+
+    //Gráficas - dieta_hoy - comidas
+    <string name="calorias_text">Calorias:</string>
+    <string name="hidratosDeCarbono_text">H.Carbono:</string>
+    <string name="proteinas_text">Proteinas:</string>
+    <string name="grasas_text">Grasas:</string>
+
+
+    //Calendario
+    <string name="Desayuno">Desayuno</string>
+    <string name="Almuerzo">Almuerzo</string>
+    <string name="Merienda">Merienda</string>
+    <string name="Cena">Cena</string>
+
+    //Info - Nutricional
+    <string name="Confirmar_text">¿Confirmar?</string>
+    <string name="boton_si">Si</string>
+    <string name="boton_no">No</string>
+
+
+    <string name="cargando_text">Cargando Dietas...</string>
+
+    //Opciones Alimento
+    <string name="Opciones_text">Opciones especificos del alimento</string>
+    <string name="Cantidad_fija_text">Especifica la cantidad a tomar:</string>
+    <string name="elegir_equivalente">Elegir equivalente</string>
+    <string name="hacer_foto">Hacer foto</string>
+
+    //Ventana principal
+    <string name="progreso_del_dia">Progreso del dia</string>
+    <string name="Tienes_n_dias">Tienes N dias libres</string>
+
+
+
+
+
+    <string name="home_second">Home Second</string>
+</resources>

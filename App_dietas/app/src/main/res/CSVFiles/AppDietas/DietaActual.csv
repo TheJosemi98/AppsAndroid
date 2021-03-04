@@ -1,0 +1,43 @@
+Cantidad Numérica;Cantidad Cualitativa;Nombre;Grupo Alimenticio;Comida;Energía;Proteínas;Hidratos de Carbono;Grasas;Día de la semana;Alternativa;Equivalentes;Grupo Equivalentes;Observaciones
+200;ml;Leche desnatada;Lácteo;Desayuno;37.5;3.9;4.9;0.2;Todos los días;No;Si;1;-
+200;ml;Café descafeinado;Bebida Acalórica;Desayuno;0;0;0;0;Todos los días;Si;Si;1;-
+130;gr;Tostada con guacamole;Cereal;Desayuno;138.5;4.77;12.3;8.92;Todos los días;No;Si;2;-
+100;gr;Cereales integrales;Cereal;Desayuno;329;15.4;68.03;1.92;Todos los días;Si;Si;2;-
+150;gr;Cinta de lomo a la plancha;Carne;Almuerzo;120;20.7;0;3.5;Lunes;No;No;;-
+300;gr;Ensalada de verduras;Verduras y hortalizas;Almuerzo;16;1.27;3.23;0.07;Lunes;No;No;;Se le puede echar pepino como acompañamiento
+300;gr;Judías verdes;Verduras y hortalizas;Almuerzo;35;1.9;7.87;0.27;Martes;No;Si;3;-
+300;gr;Alcachofas;Verduras y hortalizas;Almuerzo;53;2.9;11.97;0.33;Martes;Si;Si;3;-
+150;gr;Pechuga de pollo a la plancha;Carne;Almuerzo;197.3;29.8;0;3.9;Martes;No;No;;-
+200;gr;Jibia;Pescado;Almuerzo;72;16.1;0;0.9;Miércoles;No;Si;4;-
+200;gr;Calamares a la plancha;Pescado;Almuerzo;80;16;0.7;1.5;Miércoles;Si;Si;4;-
+500;gr;Ensalada de verduras;Verduras y hortalizas;Almuerzo;16;1.27;3.23;0.07;Miércoles;No;No;;-
+200;gr;Pasta;Cereal;Almuerzo;131;5.2;24.9;1.1;Jueves;No;Si;5;-
+200;gr;Arroz;Cereal;Almuerzo;365;7.1;80;0.7;Jueves;Si;Si;5;En crudo
+150;gr;Rape;Pescado;Almuerzo;97;18.6;0;2;Jueves;No;Si;6;-
+150;gr;Merluza a la plancha con lechuga;Pescado;Almuerzo;64;12;0;1.8;Jueves;Si;Si;6;-
+300;gr;Setas o champiñones a la plancha;Verduras y hortalizas;Almuerzo;35;3.81;0.3;0.85;Viernes;No;Si;7;-
+330;gr;Setas o champiñones revueltos con huevo y jamón;Verduras y hortalizas;Almuerzo;157.8;10.6;0.3;11.7;Viernes;Si;Si;7;Preferible con tomate, lechuga y pepino
+350;gr;Ensalada de verduras;Verduras y hortalizas;Almuerzo;16;1.27;3.23;0.07;Sábado;No;Si;8;-
+250;gr;Paella de marisco;Cereal y pescado;Almuerzo;143;8.75;16.5;4.43;Sábado;Si;Si;8;-
+350;gr;Ensalada de verduras;Verduras y hortalizas;Almuerzo;16;1.27;3.23;0.07;Domingo;No;No;;-
+150;gr;Pollo;Carne;Almuerzo;197.3;29.8;0;3.9;Domingo;No;Si;9;-
+150;gr;Ternera magra a la plancha;Carne;Almuerzo;133;21.7;0;4.51;Domingo;Si;Si;9;-
+200;ml;Zumo de piña;Fruta;Merienda;53;0.5;12.5;0.2;Todos los días;No;Si;10;-
+125;gr;Yogurt desnatado;Lácteo;Merienda;48;5;6.6;0.1;Todos los días;Si;Si;10;-
+100;gr;Queso fresco;Lácteo;Cena;145;11.99;5.41;8.33;Lunes;No;No;;Tipo Burgos
+400;gr;Patatas con espinacas;Tubérculo;Cena;86;1.71;20;0.1;Lunes;No;Si;11;100 gr de Patatas y 300 gr de espinacas
+400;gr;Patatas con judías verdes;Tubérculo;Cena;86;4.77;20;0.1;Lunes;Si;Si;11;100 gr de Patatas y 300 gr de judías verdes
+200;gr;Arroz cocido con tomate frito;Cereal;Cena;242;4.43;53.18;0.39;Martes;No;No;;-
+100;gr;Tortilla de 2 huevos;Huevo;Cena;93;6.48;0.42;7.33;Martes;No;No;;-
+200;gr;Ensalada de patatas;Verduras y hortalizas;Cena;143;2.7;11.2;8.2;Miércoles;No;No;;-
+60;gr;Jamón de york;Carne;Cena;107;12;8;3;Miércoles;No;Si;12;-
+60;gr;Pechuga de pavo;Carne;Cena;105;24;0;1.1;Miércoles;Si;Si;12;-
+350;gr;Ensalada de verduras;Verduras y hortalizas;Cena;16;1.27;3.23;0.07;Jueves;No;No;;-
+100;gr;Ternera sin grasa;Carne;Cena;136;23;0;4.43;Jueves;No;Si;13;-
+200;gr;Solomillo;Carne;Cena;158;22.3;0;7.6;Jueves;Si;Si;13;-
+50;gr;Kiwi;Fruta;Cena;56;1;9.1;0.8;Viernes;No;No;;-
+40;gr;Queso manchego semicurado;Lácteo;Cena;406;26;0;33.5;Viernes;No;No;;-
+60;gr;Jamón serrano Magro;Carne;Cena;221;28;0.2;12;Sábado;No;No;;-
+300;gr;Champiñones a la plancha;Verduras y hortalizas;Cena;35;3.81;0.3;0.85;Sábado;No;No;;-
+300;gr;Espárragos;Verduras y hortalizas;Cena;24;1.9;3.4;0.3;Domingo;No;No;;-
+80;gr;Pera;Fruta;Cena;96;0.63;25.7;0.2;Domingo;No;No;;-

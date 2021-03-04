@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.progreso.ProgresoFragment">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <CalendarView
+            android:id="@+id/Calendario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/Desayuno"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:text="@string/Desayuno"
+            android:onClick="Boton_Pulsado_CalendarClick"/>
+
+        <Button
+            android:id="@+id/Almuerzo"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:text="@string/Almuerzo"
+            android:onClick="Boton_Pulsado_CalendarClick"/>
+
+        <Button
+            android:id="@+id/Merienda"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:text="@string/Merienda"
+            android:onClick="Boton_Pulsado_CalendarClick"/>
+
+        <Button
+            android:id="@+id/Cena"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:text="@string/Cena"
+            android:onClick="Boton_Pulsado_CalendarClick"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

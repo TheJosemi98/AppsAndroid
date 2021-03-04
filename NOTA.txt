@@ -1,0 +1,2 @@
+Es necesario implementar la libreria MPAndroidChart para el funcionamiento de cada una 
+de ellas

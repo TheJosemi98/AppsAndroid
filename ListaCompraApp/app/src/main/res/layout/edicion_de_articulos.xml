@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/editar_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32dp"
+            android:gravity="center"
+            android:text="Editar/añadir articulo nuevo" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/nombre_articulo_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="Nombre del articulo" />
+
+        <EditText
+            android:id="@+id/editText_nombre_articulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/Categoria_Articulo_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="Categoria del articulo" />
+
+        <EditText
+            android:id="@+id/editText_categoria_articulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/precio_articulo_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="Precio del articulo" />
+
+        <EditText
+            android:id="@+id/editText_precio_articulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/button_aplicar_cambios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="aplicarCambios"
+            android:text="Aplicar cambios" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.info_nutricional.InfoNutricionalFragment">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <TextView
+            android:id="@+id/Info_nutricional_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="36dp"
+            android:text="@string/Info_Nutricional" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart_Info_N_T"
+            android:layout_width="match_parent"
+            android:layout_height="348dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Calorias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:text="@string/calorias_text" />
+
+            <TextView
+                android:id="@+id/Calorias_T"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="  82782 Kcal/dia" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/HidratosDeCarbono"
+                android:layout_width="54dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:gravity="end"
+                android:text="@string/hidratosDeCarbono_text" />
+
+            <TextView
+                android:id="@+id/HidratosDeCaborno_T"
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:text="  130 g" />
+
+            <TextView
+                android:id="@+id/Proteinas"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:gravity="end"
+                android:text="@string/proteinas_text" />
+
+            <TextView
+                android:id="@+id/Proteinas_T"
+                android:layout_width="31dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:text="  100 g" />
+
+            <TextView
+                android:id="@+id/Grasas"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:gravity="end"
+                android:text="@string/grasas_text" />
+
+            <TextView
+                android:id="@+id/Grasas_T"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:text="  100 g" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.progreso.ProgresoFragment">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <TextView
+            android:id="@+id/N_dias_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="N"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/N_dias_text"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:gravity="center"
+            android:text="@string/N_dia_text" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/Progreso_simple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Dias_cumplidos_simple"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/progreso_porcentaje"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="%"
+            android:textSize="25dp"
+            android:gravity="center"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar_Progreso"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="59dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/Progreso_detallado"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="center"
+            android:text="@string/Dias_cumplidos_detalles"
+            android:textSize="40dp" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart_progreso_detallado"
+            android:layout_width="match_parent"
+            android:layout_height="348dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray" />
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

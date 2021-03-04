@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ProgresoDeHoy.ProgresoDeHoyFragment">
+
+    <LinearLayout
+        android:layout_width="402dp"
+        android:layout_height="774dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/N_pasos_text"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:gravity="center|bottom"
+            android:text="N"
+            android:textSize="90dp" />
+
+        <TextView
+            android:id="@+id/pasos_dados_text"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:text="@string/pasos_dados"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/Objetivo_text"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:text="(objetivo:---)"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/velocidad_media_text"
+                android:layout_width="209dp"
+                android:layout_height="match_parent"
+                android:gravity="center|right"
+                android:text="@string/vel_media"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/velocidad_media_velMed"
+                android:layout_width="138dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text=" 15 km/h"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/distancia_recorrida_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center|bottom"
+                    android:text="@string/dist_recor"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/distancia_recorrida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="3,56 Km"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/calorias_quemadas_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="107dp"
+                    android:gravity="center|bottom"
+                    android:text="@string/Calorias_quemadas"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/calorias_quemadas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="100 Kcal"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tiempo_activo_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="111dp"
+                    android:gravity="center|bottom"
+                    android:text="@string/Tiempo_Act"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/tiempo_activo_"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="0:15 Horas"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

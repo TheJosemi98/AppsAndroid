@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_progreso"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_Progreso" />
+        <item
+            android:id="@+id/nav_calendario"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_Calendario" />
+        <item
+            android:id="@+id/nav_dieta_de_hoy"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_Dieta_Hoy" />
+        <item
+            android:id="@+id/nav_info_nutricional"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_Info_Nutr" />
+        <item
+            android:id="@+id/nav_cerrarSesion"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_CerrarSesion" />
+    </group>
+</menu>

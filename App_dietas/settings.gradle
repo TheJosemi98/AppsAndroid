@@ -1,0 +1,2 @@
+rootProject.name='App_dietas'
+include ':app', ':gradle-wrapper', ':MPAndroidChart-v3.0.1', ':MPChartLib', ':MPChartExample'

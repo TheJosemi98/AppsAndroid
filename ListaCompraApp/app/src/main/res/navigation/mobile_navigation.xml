@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_Hoy">
+
+    <fragment
+        android:id="@+id/navigation_Hoy"
+        android:name="com.example.listacompraapp.ui.hoy.HoyFragment"
+        android:label="@string/title_Hoy"
+        tools:layout="@layout/fragment_hoy" />
+
+    <fragment
+        android:id="@+id/navigation_Progreso"
+        android:name="com.example.listacompraapp.ui.progreso.ProgresoFragment"
+        android:label="@string/title_Progreso"
+        tools:layout="@layout/fragment_progreso" />
+
+    <fragment
+        android:id="@+id/navigation_Progreso_mensual"
+        android:name="com.example.listacompraapp.ui.progreso_mensual.ProgresoMensualFragment"
+        android:label="@string/title_Progreso_mensual"
+        tools:layout="@layout/fragment_progreso_mensual" />
+</navigation>
